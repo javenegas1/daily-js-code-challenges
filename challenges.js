@@ -207,9 +207,16 @@ reverseUpcaseString("SEI Rocks!"); //=> "!SKCOR IES"
 -----------------------------------------------------------------*/
 // Your solution for 07-reverseUpcaseString here:
 
+function reverseUpcaseString(str){
+  let strArr = str.split('')
+  let newArr = []
+  for(i=strArr.length-1; i>=0; i--){
+    newArr.push(strArr[i])
+  }
+  return newArr.join('').toUpperCase()
+}
 
-
-
+console.log(reverseUpcaseString("SEI Rocks!"))
 
 /*-----------------------------------------------------------------
 Challenge: 08-removeEnds
