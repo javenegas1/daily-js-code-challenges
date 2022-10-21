@@ -91,7 +91,7 @@ sumNumbers([]) //=> 0
 // Your solution for 03-sumNumbers here:
 
 function sumNumbers(arr){
-  let sum = 0
+  let sum = 0;
   for(i=0; i<arr.length; i++){
     sum += arr[i]
   }
@@ -121,9 +121,15 @@ add(7,-12) //=> -5
 -----------------------------------------------------------------*/
 // Your solution for 04-addList here:
 
+function add(){
+  let sum = 0;
+  for(i=0; i<arguments.length; i++){
+    sum += arguments[i]
+  }
+  return sum
+}
 
-
-
+console.log(add(1,50,1.23))
 
 /*-----------------------------------------------------------------
 Challenge: 05-computeRemainder
