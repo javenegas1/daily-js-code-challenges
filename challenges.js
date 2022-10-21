@@ -151,9 +151,14 @@ computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------*/
 // Your solution for 05-computeRemainder:
 
+function computeRemainder(a, b){
+  if(a == 0 || b == 0){
+    return 'infinity'
+  }
+  return a%b
+}
 
-
-
+console.log(computeRemainder(10,2))
 
 /*-----------------------------------------------------------------
 Challenge: 06-range
