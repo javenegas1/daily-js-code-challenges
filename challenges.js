@@ -216,7 +216,7 @@ function reverseUpcaseString(str){
   return newArr.join('').toUpperCase()
 }
 
-console.log(reverseUpcaseString("SEI Rocks!"))
+console.log(reverseUpcaseString("SEI Rocks!")) 
 
 /*-----------------------------------------------------------------
 Challenge: 08-removeEnds
